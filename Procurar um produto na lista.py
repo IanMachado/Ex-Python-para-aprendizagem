@@ -6,6 +6,7 @@ name_of_product = input('name of product: ').lower()
 if name_of_product not in product:
     print('Product not found!')
 
+    
 else:
     j = product.index(name_of_product)
     pct_stk = stock[j]
