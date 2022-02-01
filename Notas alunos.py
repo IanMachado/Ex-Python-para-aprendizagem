@@ -13,7 +13,6 @@ while opcao != 3:
         print('Notas:')
         for nota in notas:
          print(nota)
-
     elif opcao == 3:
         print('Programa finalizado!')
 
