@@ -8,6 +8,7 @@ print('\033[1;30mFORMAS DE PAGAMENTO\033[m\n'
       '\033[1;33m[ 4 ]\033[m 3x ou mais no cartão')
 
 pag = int(input('\033[1;34mQual a opção?\033[m '))
+
 if (pag != 1 and pag != 2) and (pag != 3 and pag != 4) :
     print('\033[1;31mForma de pagamento não identificada, tente novamente...\033[m')
     quit()
