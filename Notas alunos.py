@@ -9,7 +9,6 @@ while opcao != 3:
     if opcao == 1:
         notas.append(float(input('Adicione uma nota: ')))
 
-   
     elif opcao == 2:
         print('Notas:')
         for nota in notas:
