@@ -6,7 +6,6 @@ while senha1 != senha:
     senha = str(input('Crie uma senha: '))
     senha1 = str(input('Confirme sua senha: '))
 
-
 else:
     print('Senha criada com sucesso!')
 
