@@ -8,7 +8,6 @@ pc = randint(0, 5)
 num = int(input("\033[37mEm que número pensei?\033[m "))
 print("Processando...")
 sleep(2)
-
 if num == pc :
     print(f'\033[32mParabéns, você acertou! Pensei no número {pc}\033[m')
 
